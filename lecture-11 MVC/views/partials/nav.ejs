@@ -1,0 +1,19 @@
+    <header class="bg-red-500 text-white shadow-md p-4">
+
+      <nav class="container ms-auto flex flex-row items-center gap-7">
+        <ul>
+          <li>
+            <a href="/"
+            class="<%= currentPage === 'home' ? 'bg-red-400' : 'hover:bg-red-400' %> py-2 px-4 rounded transition duration-300"
+            >Home</a>
+          </li>
+        </ul>
+        <ul>
+           <li>
+            <a href="/host/add-home"
+             class="<%= currentPage === 'registerHome' ? 'bg-red-400' : 'hover:bg-red-400' %> py-2 px-4 rounded transition duration-300"
+            >Add Home</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
